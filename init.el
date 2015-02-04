@@ -1,7 +1,7 @@
 ;;;;
 ;; Packages
 ;;;;
-(require 'cask "/root/.cask/cask.el")
+(require 'cask "/home/vagrant/.cask/cask.el")
 (cask-initialize)
 ;; Define package repositories
 (require 'package)
@@ -146,7 +146,6 @@
  ;; UI preferences
  (add-to-list 'default-frame-alist '(font . "Inconsolata-14"))
  (set-face-attribute 'default t :font "Inconsolata-14")
- (load-theme 'tangotango t)
  
  ;; Backups
  (setq backup-directory-alist '(("." . "~/.emacs.d/saves")))
