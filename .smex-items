@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ js-mode
+ load-theme
  cider-connect
  cider-mode
  package-install
  python-mode
  recover-session
- rainbow-delimiters-mode
- multiple-cursors-mode
 )
 
 ;; ----- smex-data -----
@@ -24,4 +24,6 @@
  (python-mode . 1)
  (cider-mode . 6)
  (cider-connect . 1)
+ (load-theme . 1)
+ (js-mode . 1)
 )
