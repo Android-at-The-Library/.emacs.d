@@ -1,7 +1,7 @@
 ;;;;
 ;; Packages
 ;;;;
-(require 'cask "/root/.cask/cask.el")
+(require 'cask "/home/vagrant/.cask/cask.el")
 (cask-initialize)
 ;; Define package repositories
 (require 'package)
